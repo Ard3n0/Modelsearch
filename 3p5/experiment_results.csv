@@ -1,0 +1,8 @@
+,Model,Stage,Precision@10
+0,LogisticRegression,Baseline (3.3),0.5
+1,MLPClassifier,Baseline (3.3),0.5
+2,GradientBoosting,Baseline (3.3),0.7
+3,LogisticRegression,Calibrated (3.4.2),0.7
+4,MLPClassifier,Calibrated (3.4.2),0.3
+5,GradientBoosting,Calibrated (3.4.2),0.7
+6,Stacking,Ensemble (3.3),0.7

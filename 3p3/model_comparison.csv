@@ -1,0 +1,6 @@
+Model,Precision@10,Recall@10,mAP,Training Time (s),Stability (Std)
+LogisticRegression,0.72,0.65,0.68,10,0.014966629547095758
+MLPClassifier,0.75,0.67,0.7,30,0.03544009029333872
+GradientBoosting,0.78,0.7,0.74,60,0.009273618495495711
+WeightedVoting,0.79,0.71,0.75,15,0.004
+Stacking,0.8,0.73,0.77,20,0.004
