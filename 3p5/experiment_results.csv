@@ -1,8 +1,8 @@
-,Model,Stage,Precision@10
-0,LogisticRegression,Baseline (3.3),0.5
-1,MLPClassifier,Baseline (3.3),0.5
-2,GradientBoosting,Baseline (3.3),0.7
-3,LogisticRegression,Calibrated (3.4.2),0.7
-4,MLPClassifier,Calibrated (3.4.2),0.3
-5,GradientBoosting,Calibrated (3.4.2),0.7
-6,Stacking,Ensemble (3.3),0.7
+,Model,Stage,Precision@10,Recall@10,mAP
+0,LogisticRegression,Baseline (3.3),0.5,1.0,0.5261734367608424
+1,MLPClassifier,Baseline (3.3),0.5,1.0,0.5236344740146966
+2,GradientBoosting,Baseline (3.3),0.7,1.0,0.5449894678732303
+3,LogisticRegression,Calibrated (3.4.2),0.7,1.0,0.5402845686162472
+4,MLPClassifier,Calibrated (3.4.2),0.3,1.0,0.48460442506923523
+5,GradientBoosting,Calibrated (3.4.2),0.7,1.0,0.5736231486006584
+6,Stacking,Ensemble (3.3),0.7,1.0,0.560318707745133
